@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle curator'
+      'command': 'curator:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'curator'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'curator:toggle'
+        }
+      ]
+    ]
+  }
+]

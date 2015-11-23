@@ -1,0 +1,18 @@
+{
+  "name": "curator",
+  "main": "./lib/curator",
+  "version": "0.1.0",
+  "description": "Provides access to Curated Content Stream",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "curator:toggle"
+  },
+  "repository": "https://github.com/atom/curator",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
